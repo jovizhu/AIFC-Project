@@ -1,0 +1,42 @@
+#Sat May 03 18:19:31 CDT 2014
+
+provenance-accesscontrol = true
+
+#Current Domian for access control unit role mapping
+current-domain=DomainB
+
+debug-level = 5
+
+#Database User Pass for each domain
+DomainA-database-URL= 10.176.128.24:3306/aifc-database-domaina
+DomainA-database-password=root
+DomainA-database-user=root
+
+DomainB-database-URL= 10.176.128.21:3306/aifc-database-domainb
+DomainB-database-password=root
+DomainB-database-user=root
+
+DomainC-database-URL= 192.168.0.109:3306/aifc-database-domainc
+DomainC-database-password=root
+DomainC-database-user=root
+
+DomainD-database-URL= 192.168.0.110:3306/aifc-database-domaind
+DomainD-database-password=root
+DomainD-database-user=root
+
+policy-path = Policies
+policy-files = POLICY1.XML;POLICY2.XML;POLICY3.XML;POLICY4.XML;POLICY5.XML;POLICY6.XML;POLICY7.XML
+
+domain-list = DomainA;DomainB;DomainC;DomainD
+
+#Access control validator for each domain
+DomainA-validator = http://10.176.128.24:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateRequest?
+DomainB-validator = http://10.176.128.21:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateRequest?
+DomainC-validator = http://192.168.0.109:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateRequest?
+DomainD-validator = http://192.168.0.110:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateRequest?
+
+#Access control validator for each domain
+DomainA-contributor-validator = http://10.176.128.24:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateContributor?
+DomainB-contributor-validator = http://10.176.128.21:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateContributor?
+DomainC-contributor-validator = http://192.168.0.109:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateContributor?
+DomainD-contributor-validator = http://192.168.0.110:8080/AIFC-RESTful-validator/aifc/RESTfulAccessControl/validateContributor?
