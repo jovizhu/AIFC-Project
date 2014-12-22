@@ -120,11 +120,11 @@ public class UserProg_DomainB {
 			System.out.println("Start Time = " + stime7 +" End Time = " + etime7 +" Total Time= " + (etime7 - stime7) );
 			
 			
-			long stime8 = System.currentTimeMillis();
-			contributorlist = "rB11:DomainB:1:rC11:DomainC:1:rD11:DomainD:1";
-			s.create_robot("rB1111", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
-			long etime8 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime8 +" End Time = " + etime8 +" Total Time= " + (etime8 - stime8) );
+//			long stime8 = System.currentTimeMillis();
+//			contributorlist = "rB11:DomainB:1:rC11:DomainC:1:rD11:DomainD:1";
+//			s.create_robot("rB1111", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
+//			long etime8 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime8 +" End Time = " + etime8 +" Total Time= " + (etime8 - stime8) );
 			
 			
 			long stime9 = System.currentTimeMillis();
@@ -160,31 +160,31 @@ public class UserProg_DomainB {
 			long etime13 = System.currentTimeMillis();
 			System.out.println("Start Time = " + stime13 +" End Time = " + etime13 +" Total Time= " + (etime13 - stime13) );
 			
-			long stime14 = System.currentTimeMillis();
-			contributorlist = "rB11:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rD11:DomainD:1";
-			s.create_robot("rB1211", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
-			long etime14 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime14 +" End Time = " + etime14 +" Total Time= " + (etime14 - stime14) );
+//			long stime14 = System.currentTimeMillis();
+//			contributorlist = "rB11:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rD11:DomainD:1";
+//			s.create_robot("rB1211", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
+//			long etime14 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime14 +" End Time = " + etime14 +" Total Time= " + (etime14 - stime14) );
+//			
+			
+//			long stime15 = System.currentTimeMillis();
+//			contributorlist = "rB11:DomainB:1:rB21:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rD11:DomainD:1";
+//			s.create_robot("rB2211", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
+//			long etime15 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime15 +" End Time = " + etime15 +" Total Time= " + (etime15 - stime15) );
 			
 			
-			long stime15 = System.currentTimeMillis();
-			contributorlist = "rB11:DomainB:1:rB21:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rD11:DomainD:1";
-			s.create_robot("rB2211", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
-			long etime15 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime15 +" End Time = " + etime15 +" Total Time= " + (etime15 - stime15) );
+//			long stime16 = System.currentTimeMillis();
+//			contributorlist = "rB11:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rC31:DomainC:1:rD11:DomainD:1";
+//			s.create_robot("rB1311", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
+//			long etime16 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime16 +" End Time = " + etime16 +" Total Time= " + (etime16 - stime16) );
 			
-			
-			long stime16 = System.currentTimeMillis();
-			contributorlist = "rB11:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rC31:DomainC:1:rD11:DomainD:1";
-			s.create_robot("rB1311", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
-			long etime16 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime16 +" End Time = " + etime16 +" Total Time= " + (etime16 - stime16) );
-			
-			long stime17 = System.currentTimeMillis();
-			contributorlist = "rB11:DomainB:1:rB21:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rD11:DomainD:1:rD21:DomainD:1";
-			s.create_robot("rB2221", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
-			long etime17 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime17 +" End Time = " + etime17 +" Total Time= " + (etime17 - stime17) );
+//			long stime17 = System.currentTimeMillis();
+//			contributorlist = "rB11:DomainB:1:rB21:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rD11:DomainD:1:rD21:DomainD:1";
+//			s.create_robot("rB2221", "DomainB", "RobotRepository","Person1","DomainB", creds[2],contributorlist,cred);
+//			long etime17 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime17 +" End Time = " + etime17 +" Total Time= " + (etime17 - stime17) );
 			
 			long stime18 = System.currentTimeMillis();
 			contributorlist = "rB11:DomainB:1:rB21:DomainB:1:rB31:DomainB:1:rC11:DomainC:1:rC21:DomainC:1:rC31:DomainC:1";
@@ -232,14 +232,14 @@ public class UserProg_DomainB {
 			long etime20b = System.currentTimeMillis();
 			System.out.println("Start Time = " + stime20b +" End Time = " + etime20b +" Total Time= " + (etime20b - stime20b) +"\n");
 			}
-			System.out.println("5.===================================================================");
-			//Thread.sleep(1000);
-			for (i=0; i<NumIterations; i++) {	
-			long stime21 = System.currentTimeMillis();
-			s.read_robot("rB1111", "DomainB", "Person1", creds[2],creds[3], cred);
-			long etime21 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime21 +" End Time = " + etime21 +" Total Time= " + (etime21 - stime21) +"\n");
-			}
+//			System.out.println("5.===================================================================");
+//			//Thread.sleep(1000);
+//			for (i=0; i<NumIterations; i++) {	
+//			long stime21 = System.currentTimeMillis();
+//			s.read_robot("rB1111", "DomainB", "Person1", creds[2],creds[3], cred);
+//			long etime21 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime21 +" End Time = " + etime21 +" Total Time= " + (etime21 - stime21) +"\n");
+//			}
 			System.out.println("6.===================================================================");
 			//Thread.sleep(1000);
 			for (i=0; i<NumIterations; i++) {
@@ -280,38 +280,38 @@ public class UserProg_DomainB {
 			long etime26 = System.currentTimeMillis();
 			System.out.println("Start Time = " + stime26 +" End Time = " + etime26 +" Total Time= " + (etime26 - stime26) +"\n");
 			}
-			System.out.println("11.===================================================================");
-		//	Thread.sleep(1000);
-			for (i=0; i<NumIterations; i++) {
-			long stime27 = System.currentTimeMillis();
-			s.read_robot("rB1211", "DomainB", "Person1", creds[2],creds[3], cred);
-			long etime27 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime27 +" End Time = " + etime27 +" Total Time= " + (etime27 - stime27) +"\n");
-			}
-			System.out.println("12.===================================================================");
-			//Thread.sleep(1000);
-			for (i=0; i<NumIterations; i++) {
-			long stime28 = System.currentTimeMillis();
-			s.read_robot("rB2211", "DomainB", "Person1", creds[2],creds[3], cred);
-			long etime28 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime28 +" End Time = " + etime28 +" Total Time= " + (etime28 - stime28) +"\n");
-			}
-			System.out.println("13.===================================================================");
-			//Thread.sleep(1000);
-			for (i=0; i<NumIterations; i++) {
-			long stime29 = System.currentTimeMillis();
-			s.read_robot("rB1311", "DomainB", "Person1", creds[2],creds[3], cred);
-			long etime29 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime29 +" End Time = " + etime29 +" Total Time= " + (etime29 - stime29) +"\n");
-			}
-			System.out.println("14.===================================================================");
-			//Thread.sleep(4000);
-			for (i=0; i<NumIterations; i++) {
-			long stime30 = System.currentTimeMillis();
-			s.read_robot("rB2221", "DomainB", "Person1", creds[2],creds[3], cred);
-			long etime30 = System.currentTimeMillis();
-			System.out.println("Start Time = " + stime30 +" End Time = " + etime30 +" Total Time= " + (etime30 - stime30) +"\n");
-			}
+//			System.out.println("11.===================================================================");
+//		//	Thread.sleep(1000);
+//			for (i=0; i<NumIterations; i++) {
+//			long stime27 = System.currentTimeMillis();
+//			s.read_robot("rB1211", "DomainB", "Person1", creds[2],creds[3], cred);
+//			long etime27 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime27 +" End Time = " + etime27 +" Total Time= " + (etime27 - stime27) +"\n");
+//			}
+//			System.out.println("12.===================================================================");
+//			//Thread.sleep(1000);
+//			for (i=0; i<NumIterations; i++) {
+//			long stime28 = System.currentTimeMillis();
+//			s.read_robot("rB2211", "DomainB", "Person1", creds[2],creds[3], cred);
+//			long etime28 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime28 +" End Time = " + etime28 +" Total Time= " + (etime28 - stime28) +"\n");
+//			}
+//			System.out.println("13.===================================================================");
+//			//Thread.sleep(1000);
+//			for (i=0; i<NumIterations; i++) {
+//			long stime29 = System.currentTimeMillis();
+//			s.read_robot("rB1311", "DomainB", "Person1", creds[2],creds[3], cred);
+//			long etime29 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime29 +" End Time = " + etime29 +" Total Time= " + (etime29 - stime29) +"\n");
+//			}
+//			System.out.println("14.===================================================================");
+//			//Thread.sleep(4000);
+//			for (i=0; i<NumIterations; i++) {
+//			long stime30 = System.currentTimeMillis();
+//			s.read_robot("rB2221", "DomainB", "Person1", creds[2],creds[3], cred);
+//			long etime30 = System.currentTimeMillis();
+//			System.out.println("Start Time = " + stime30 +" End Time = " + etime30 +" Total Time= " + (etime30 - stime30) +"\n");
+//			}
 			System.out.println("15.===================================================================");
 			//Thread.sleep(4000);
 			for (i=0; i<NumIterations; i++) {
